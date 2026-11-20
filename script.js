@@ -22,7 +22,7 @@ async function sendMessage() {
   const loading = addMessage("Emmzy AI is thinking...", "bot-message");
 
   try {
-    const response = await fetch("/api/chat", {
+    const response = await fetch("/chat", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
