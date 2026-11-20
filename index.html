@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emmzy AI Tutor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>EMMZY AI TUTOR</h1>
+    <p>Your Smart Learning Assistant</p>
+  </header>
+
+  <main class="container">
+    <h2>Welcome to Emmzy AI Tutor</h2>
+    <p>Choose a subject and ask your question.</p>
+
+    <select id="subject">
+      <option value="English">English</option>
+      <option value="Chemistry">Chemistry</option>
+      <option value="Mathematics">Mathematics</option>
+      <option value="Physics">Physics</option>
+      <option value="Biology">Biology</option>
+    </select>
+
+    <div id="chat-box">
+      <div class="bot-message">
+        Hello! I am Emmzy AI Tutor. What would you like to learn today?
+      </div>
+    </div>
+
+    <div class="input-area">
+      <input
+        type="text"
+        id="message"
+        placeholder="Ask your question..."
+      >
+      <button id="send-btn" onclick="sendMessage()">Send</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2026 Emmzy AI Tutor. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
